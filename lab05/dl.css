@@ -1,0 +1,193 @@
+/*
+filename: layout.css
+author: Ahmed
+created: 30/04/2026
+last modified: 30/04/2026
+description: lab05 layout styling
+*/
+
+body {
+    width: 78%;
+    margin: 40px auto;
+    padding: 12px;
+    border: 3px solid black;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+header {
+    background-color: #d9d9d9;
+    border: 1px solid #999;
+    padding: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: purple;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+nav {
+    margin-bottom: 18px;
+}
+
+.menu {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #999;
+    background-color: #f2f2f2;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    background-color: #dcdcdc;
+}
+
+article {
+    min-width: 30em;
+}
+
+h2 {
+    color: teal;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: teal;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+p, li, dt, dd {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+aside:hover {
+    display: block;
+}
+
+aside {
+    float: right;
+    width: 32%;
+    padding: 22px;
+    margin: 10px 0 20px 25px;
+    border: 4px inset purple;
+    border-radius: 18px;
+    background: white url(images/fade.jpg) repeat-x top left;
+    box-shadow: 10px 10px 8px #999;
+    font-style: italic;
+    font-size: 22px;
+}
+
+#lists {
+    float: left;
+}
+
+#tables {
+    float: right;
+}
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+#images {
+    float: right;
+}
+
+#lists,
+#tables,
+#hyperlinks,
+#images {
+    width: 48%;
+    text-align: center;
+}
+
+ol,
+ul,
+dl {
+    text-align: left;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 6px 10px;
+}
+
+thead {
+    background-color: #e6e6e6;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+figure {
+    border: 2px solid #bbb;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+img {
+    width: 180px;
+    height: auto;
+}
+
+footer {
+    clear: both;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-top: 4px double #888;
+    font-size: 18px;
+}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
