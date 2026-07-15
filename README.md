@@ -1,3 +1,3 @@
 # COS10026
 
-S1 2026
+S1 2026 Web Technology Project
